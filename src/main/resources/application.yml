@@ -1,0 +1,15 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /yarufood/api
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/yarufood
+    username: jarufe
+    password: GAJ@2003
+    driverClassName: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
