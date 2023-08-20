@@ -16,5 +16,5 @@ public class Contact {
     @Column(name = "ddd")
     private String ddd;
     @Column(name = "phone_number")
-    private String phone_number;
+    private String phoneNumber;
 }

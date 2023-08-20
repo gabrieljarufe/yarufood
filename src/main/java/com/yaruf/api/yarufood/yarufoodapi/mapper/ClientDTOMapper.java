@@ -8,7 +8,7 @@ public class ClientDTOMapper {
         return ClientDTO.builder()
                 .email(client.getEmail())
                 .cpf(client.getCpf())
-                .phone_number(client.getContact().getPhone_number())
+                .phone_number(client.getContact().getPhoneNumber())
                 .ddd(client.getContact().getDdd())
                 .name(client.getName())
                 .build();
